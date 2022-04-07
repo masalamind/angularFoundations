@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { TawiComponent } from './tawi/tawi.component';
 import { KokoComponent } from './koko/koko.component';
 import { WarningAlert } from './warning-alert/warning-alert.component';
+import { SuccessAlertComponent } from './success-alert/success-alert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TawiComponent,
     KokoComponent,
-    WarningAlert
+    WarningAlert,
+    SuccessAlertComponent
   ],
   imports: [
     BrowserModule
