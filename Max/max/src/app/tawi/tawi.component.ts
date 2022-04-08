@@ -10,4 +10,5 @@ import { Component } from "@angular/core";
 
 export class TawiComponent{
     // title: 'Tawi';
+    desc: string = "Tawi is an amazing product";  // use string interpolation to display it in template 
 }
