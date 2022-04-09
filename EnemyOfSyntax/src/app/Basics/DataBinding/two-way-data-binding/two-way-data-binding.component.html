@@ -1,0 +1,13 @@
+<!-- For two way data binding to work with the ng model and input you have to import forms module at the app module imports -->
+
+<p>two-way-data-binding works!</p>
+
+
+<!-- with two way data binding you just declare a variable the controller and then use it in the view dynamically-->
+<!-- These two lines of code are sufficient: Wow!-->
+<!-- You'll online need to import the FormsModule in the appComponent file-->
+<!-- a variable is connected using string interpolation to the ngModel-->
+
+<h2>Check this out</h2>
+<input type="text" [(ngModel)]="userTextInput" >
+<p>Voila: <em>{{userTextInput}}</em></p>
