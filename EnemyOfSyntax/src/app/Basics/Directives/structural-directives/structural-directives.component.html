@@ -1,0 +1,15 @@
+<p>structural-directives works!</p>
+
+
+<!-- Structural directive that renders a value conditionally based on whether it's true or false -->
+<!-- The showElement variable is the one that can be true or false-->
+
+<div *ngIf="showElement">
+    <p>This is visible... or not. It depends!</p>
+</div>
+
+<!-- *ngIf structural directive triggered by button -->
+
+<h2>My Below Content is Visible? {{showElement}}</h2>
+<button class="btn btn-primary" (click)="toggleVisibility()"> Hide / Show Affirmation </button>
+<p *ngIf="showElement"> Well done learning Angular. Keep up the psyche! </p>
