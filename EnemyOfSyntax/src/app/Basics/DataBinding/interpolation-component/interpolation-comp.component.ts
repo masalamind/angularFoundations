@@ -21,4 +21,9 @@ export class InterpolationComponent{
         isTall: true
     }
 
+    numberOfCars = ()=> {
+
+        return this.cars.length;
+    }
+
 }

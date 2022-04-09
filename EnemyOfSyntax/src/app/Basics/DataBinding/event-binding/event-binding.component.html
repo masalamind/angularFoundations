@@ -1,0 +1,11 @@
+<p>Number of button clicks {{clicks}}</p>
+
+<!-- Event binding: bind click event to a method in the logic/ts file -->
+<button class="btn btn-primary" (click)="buttonClick()"> Cool Button </button> <br><br>
+
+
+<!-- Event binding: bind with an input event, and give it a method that takes an argument(the event) -->
+
+<input type="text" (input)="takeInput($event)"> <br>
+
+<p>>> {{userInput}}</p>
